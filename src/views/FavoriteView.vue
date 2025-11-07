@@ -68,9 +68,9 @@
         <!-- 卡片 2 -->
         <div class="bg-white p-3 rounded-2xl">
           <div class="text-4xl mb-3">🎮</div>
-          <h4 class="text-xl font-bold text-gray-800 mb-2">电子游戏</h4>
+          <h4 class="text-xl font-bold text-gray-800 mb-2">运动</h4>
           <p class="text-gray-700">
-            喜欢各种类型的游戏，从策略游戏到动作冒险，游戏是放松和娱乐的好方式。
+            喜欢各种类型的运动，从跑步到羽毛球，运动是放松和娱乐的好方式。
           </p>
         </div>
 

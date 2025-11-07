@@ -28,16 +28,32 @@
       直接修改 <h2> 标签中的文字
       可以是中文、英文或中英文结合
       -->
-      <h2 class="text-4xl font-bold text-gray-800">肖遥 Hunter Xiao</h2>
+      <h2 class="text-4xl font-bold text-gray-800">李乐祺 Lucky Lee</h2>
 
       <!-- 
       ❗️ 修改个人简介：
       在 <p> 标签中写一句话介绍自己
       可以包括：学校、专业、年级、兴趣爱好等
       -->
-      <p class="text-xl text-gray-600">
-        宁波诺丁汉大学计算机系大三学生，热爱编程与技术,学习成绩十分优异。
-      </p>
+      <p class="text-xl text-gray-600">宁波诺丁汉大学数学与应用数学系大二学生。</p>
+
+      <!-- 社交媒体链接 -->
+      <div class="mt-4 flex gap-4">
+        <a
+          href="https://space.bilibili.com/你的ID"
+          target="_blank"
+          class="text-gray-600 hover:text-pink-500 transition-colors"
+        >
+          <Icon icon="ri:bilibili-fill" class="text-2xl" />
+        </a>
+        <a
+          href="https://www.xiaohongshu.com/你的ID"
+          target="_blank"
+          class="text-gray-600 hover:text-red-500 transition-colors"
+        >
+          <Icon icon="ri:book-2-fill" class="text-2xl" />
+        </a>
+      </div>
     </div>
 
     <!-- 
@@ -52,39 +68,44 @@
     - 也可以改为 align="center" 居中，或 align="right" 靠右
     -->
     <div class="mb-16">
-      <h3>我擅长的</h3>
+      <h3>我的最爱</h3>
 
-      <!-- 
-      ❗️ 添加或修改技能：
-      1. 复制下面的 <div> 块（从 <div class="text-center"> 到 </div>）
-      2. 粘贴到合适位置
-      3. 修改 emoji 和文字内容
-      
-      💡 可以添加更多技能，例如：
-      - 🎨 设计
-      - 📸 摄影
-      - ✍️ 写作
-      - 🎵 音乐
-      -->
       <Row align="left">
-        <div class="text-center w-12">
-          <div class="text-2xl mb-2">📑</div>
-          <p class="text-gray-700">学习</p>
+        <div class="text-center w-32 bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors">
+          <div class="text-2xl mb-2">🎬</div>
+          <p class="text-gray-700 font-medium">星际穿越</p>
+          <p class="text-sm text-gray-500">最爱的电影</p>
         </div>
-        <div class="text-center w-12">
-          <div class="text-2xl mb-2">💻</div>
-          <p class="text-gray-700">编程</p>
+        <div class="text-center w-32 bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors">
+          <div class="text-2xl mb-2">🎵</div>
+          <p class="text-gray-700 font-medium">港乐</p>
+          <p class="text-sm text-gray-500">最爱的音乐</p>
         </div>
-        <div class="text-center w-12">
-          <div class="text-2xl mb-2">🎮</div>
-          <p class="text-gray-700">游戏</p>
+        <div class="text-center w-32 bg-gray-50 rounded-lg p-4 hover:bg-gray-100 transition-colors">
+          <div class="text-2xl mb-2">🏸</div>
+          <p class="text-gray-700 font-medium">羽毛球</p>
+          <p class="text-sm text-gray-500">最爱的运动</p>
         </div>
       </Row>
     </div>
 
     <!-- 
     ==============================================
-    📷 照片墙区域
+    � 座右铭区域
+    ==============================================
+    展示激励自己的座右铭
+    -->
+    <div class="mb-16">
+      <h3>座右铭</h3>
+      <div class="mt-4 p-6 bg-gray-50 rounded-lg border border-gray-100 shadow-sm">
+        <p class="text-lg text-gray-700 italic">"生活不止眼前的苟且，还有诗和远方。"</p>
+        <p class="mt-2 text-right text-gray-500">——北岛</p>
+      </div>
+    </div>
+
+    <!-- 
+    ==============================================
+    �📷 照片墙区域
     ==============================================
     展示你的生活照片或作品集
     

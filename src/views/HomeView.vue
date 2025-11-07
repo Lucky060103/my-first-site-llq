@@ -34,7 +34,7 @@
     -->
     <img
       class="size-36 rounded-2xl border-2 border-transparent transition-all hover:border-blue-100"
-      src="https://github.com/xiaoook.png"
+      src="/workspaces/my-first-site-llq/src/assets/537.jpg"
     />
 
     <!-- 
@@ -61,7 +61,7 @@
     
     示例：<h1 class="mt-8 text-blue-500 text-5xl">我的标题</h1>
     -->
-    <h1 class="mt-8">👋 Hi, 这里是肖遥</h1>
+    <h1 class="mt-8">👋 Hi, 这里是李乐祺</h1>
 
     <!-- 
     ❗️ 修改副标题：

@@ -34,7 +34,7 @@
     -->
     <img
       class="size-36 rounded-2xl border-2 border-transparent transition-all hover:border-blue-100"
-      src="/workspaces/my-first-site-llq/src/assets/537.jpg"
+      src="@/src/assets/537.jpg"
     />
 
     <!-- 
